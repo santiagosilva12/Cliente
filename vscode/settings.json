@@ -1,0 +1,9 @@
+{ //Quebra de linha
+    "editor.wordWrap":"on",
+    //save automation
+    "files.autosave":"afterDelay",
+    "files.autoSaveDelay":1000, 
+    "editor.formatOnSave":true, 
+    "editor.fontSize":15,
+ 
+}
