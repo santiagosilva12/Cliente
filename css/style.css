@@ -1,0 +1,39 @@
+/* Reset    CSS */
+*{
+    margin: 0px; /* margem externa - tirar todos os espaços de código -- px pixel*/
+    padding: 0 ; /*  */
+}
+
+body{
+    background: #df2e2eca;
+
+}
+
+header{
+    display:flex ;/* Flexbox */
+    justify-content: space-between;
+    align-items: center;/* Alinhamento vertical -- eu posso colocar end /start e center */
+    width: 100%;/*  */
+    padding: .5rem 1rem;/* . substitui o zero */ /* direita e esquerda / se tiver um valor no meio então é o meio --- pagging é externo */
+    /* rem equivale a 16px */
+    /* caso crie uma barra de rolagem */
+    margin: 1rem;/* externa */
+    box-sizing: border-box; /* transforma a tela em uma caixa  */
+    border-bottom: 2px solid black; 
+    position: fixed; /* O manu fica fixo */
+
+
+    /* Ambos andam em sentido horário */
+    padding-top: ;/* pra cima */ /* distância em relação ao texto */
+    padding-right: ;/* direita */
+    padding-bottom: .06px solid #000;/* para baixo */
+    padding-left: ;/* esquerda */
+
+
+}
+
+h1{
+    padding-top: 1200px;/* cria espaço entre as sessões dá a impressão de um site mais longo*/
+
+}
+
